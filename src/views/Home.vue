@@ -18,7 +18,13 @@
       <img src="" alt="">
     </div>
     <div class="right">
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore accusamus, perspiciatis suscipit commodi cupiditate iure quas nobis velit cum expedita sed possimus qui, consequatur aspernatur dicta dolor mollitia soluta. Ut.</h1>
+      <h1 style="margin-right: 200px; font-family: serif; font-size: 40px;">Bienvenue sur mon portfolio !</h1>
+      <h1>Vous pouvez découvrir mes supers projets ou en apprendre un peu plus sur moi</h1>
+    <a href="" download="assets/CV_David_Ruscuta.pdf">
+      <div class="cv-dnl">
+        <h1 style="text-decoration: none;">Télechargez mon CV ici</h1>
+      </div>
+    </a>
     </div>
   </div>
         <h1 class="A-B-C">
@@ -30,14 +36,14 @@
           </div>
       </h1>
   <div class="competences">
-    <h1 class="comp-txt">Maîtrise des differents languages</h1>
+    <h1 class="comp-txt">Languages de prédilection</h1>
       <div class="langages">
         <div id="btn-html" class="comp">
           <h4 class="html">HTML 5</h4>
           <hr class="html-hr">
           <img src="../assets/img/html.png" alt="html logo" class="logo">
             <div class="comp-cont">
-              <p class="p-html">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati et exercitationem aperiam, repellat similique enim quasi fugit laboriosam laborum architecto, rem illum veniam. Debitis officiis harum doloribus iusto soluta aspernatur.</p>
+              <p class="p-html">Création et structuration des pages Web.</p>
             </div>
         </div>
         <div id="btn-css" class="comp">
@@ -45,7 +51,7 @@
           <hr class="css-hr">
           <img src="../assets/img/css.png" alt="css logo" class="logo">
             <div class="comp-cont">
-              <p class="p-css">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde nemo perferendis debitis sequi explicabo porro aliquam quis officiis impedit in temporibus, distinctio id provident repudiandae sed veniam placeat. Vero.</p>
+              <p class="p-css">Mise en forme et définition du style des différents composents.</p>
             </div>
         </div>
         <div id="btn-js" class="comp">
@@ -53,7 +59,7 @@
           <hr class="js-hr">
           <img src="../assets/img/js.png" alt="js logo" class="logo">
             <div class="comp-cont">
-              <p class="p-js">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, quas possimus ipsa non cupiditate eum maiores dicta ex sequi error, necessitatibus repellat praesentium! Eius iure quam accusamus quaerat placeat.</p>
+              <p class="p-js">Implémentation de mécanismes complexes, animations et composents intéractifs.</p>
             </div>
         </div>
         <div id="btn-php" class="comp">
@@ -61,15 +67,15 @@
           <hr class="php-hr">
           <img src="../assets/img/php.png" alt="php logo" class="logo">
             <div class="comp-cont">
-              <p class="p-php">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quibusdam maxime quis quisquam quaerat, dolore repellendus et? Dolores, repellendus minima. Earum rerum, eius excepturi reprehenderit perspiciatis quod molestias nihil voluptate?</p>
+              <p class="p-php">Exécution d'actions spécifiques avec des règles définies au préalable.</p>
             </div>
         </div>
         <div id="btn-sql" class="comp">
-          <h4>SQL</h4>
+          <h4>MySQL</h4>
           <hr class="sql-hr">
           <img src="../assets/img/sql.png" alt="sql logo" class="logo">
             <div class="comp-cont">
-              <p class="p-sql">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias odio consectetur enim amet, ratione quod consequatur, autem non voluptates repudiandae provident officia dolor ab quisquam blanditiis placeat! Iure, dolorum.</p>
+              <p class="p-sql">Système de gestion de bases de données relationnelles SQL.</p>
             </div>
         </div>
       </div>
@@ -84,42 +90,52 @@
       <img src="../assets/img/etna.png" alt="etnaPicture" class="etnaPicture">
     </div>
     <div class="project-list">
-      <div class="project-card">
-        <div>
-        <h1 class="project-title">The Hyrule Castle</h1>
-        <h5>09/21</h5>
+      <div>
+        <div class="project-card">
+          <div>
+          <h1 class="project-title">The Hyrule Castle</h1>
+          <h5>09/21</h5>
+          </div>
+          <p>Jeu de type RPG basé sur l'univers "Zelda" avec un gameplay permettant de vaincre des "Boss" en contrôlant le jeu en interagissant avec les touches du clavier</p>
         </div>
-        <p>Jeu de type RPG basé sur l'univers "Zelda" avec un gameplay permettant de vaincre des "Boss" en contrôlant le jeu en interagissant avec les touches du clavier</p>
+          <h2 class="dC1T" style="font-size: 12px; margin-top: 10px; color: red;">Prévisualisation indisponible</h2>
+        
       </div>
-      <div class="project-card">
-        <div>
-          <h1 class="project-title">Dungeon Keeper Game</h1>
-          <h5>11/21</h5>
-        </div>
-        <p>"Clicker Game" basé sur l'univers "Dungeon Keeper Game". Incrémentation, Auto-Incrémentation et achats de bonus permettant l'évolution du jeu</p>
+      <div>
+          <div class="project-card">
+            <div>
+              <h1 class="project-title">Dungeon Keeper Game</h1>
+              <h5>11/21</h5>
+            </div>
+            <p>"Clicker Game" basé sur l'univers "Dungeon Keeper Game". Incrémentation, Auto-Incrémentation et achats de bonus permettant l'évolution du jeu</p>
+          </div>
+          <h2 class="dC1T" style="font-size: 12px; margin-top: 10px; color: red;">Prévisualisation indisponible</h2>
       </div>
-      <div class="project-card">
-        <div>
-          <h1 class="project-title">Liberty Commerce</h1>
-          <h5>10/21</h5>
-        </div>
-        <p>Site d'e-commerce pour vente de pianos avec création et gestion de comptes utilisateurs et des produits pour l'administrateur</p>
+      <div>
+          <div class="project-card">
+            <div>
+              <h1 class="project-title">Liberty Commerce</h1>
+              <h5>10/21</h5>
+            </div>
+            <p>Site d'e-commerce pour vente de pianos avec création et gestion de comptes utilisateurs et des produits pour l'administrateur</p>
+          </div>
+          <h2 class="dC1T" style="font-size: 12px; margin-top: 10px; color: red;">Prévisualisation indisponible</h2>
       </div>
-      <div class="project-card">
-        <div>
-          <h1 class="project-title">Extension Mentor Goal</h1>
-          <h5>12/21</h5>
+      <div>
+        <div class="project-card">
+          <div>
+            <h1 class="project-title">Extension Mentor Goal</h1>
+            <h5>12/21</h5>
+          </div>
+          <p>Outil visant à aider, faciliter et suivre les candidatures des differents clients</p>
         </div>
-        <p>Outil visant à aider, faciliter et suivre les candidatures des differents clients</p>
+        <h2 class="dC1T" style="font-size: 12px; margin-top: 10px; color: red;">Prévisualisation indisponible</h2>
       </div>
     </div>
   </div>
   </div>
   
 </template>
-
-<script>
-</script>
 
 <style>
 
@@ -317,8 +333,36 @@ h3 {
 
   .right {
     margin-top: 100px;
+    margin-left: 50px;
     padding: 50px;
   }
+
+
+.cv-dnl {
+  background-color: yellow;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 8px;
+  color: #2c3e50;
+  padding-top: 8px;
+  margin-left: 400px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
+}
+
+.cv-dnl:hover {
+  transition-duration: 0.4s;
+  background-color: #03a9f4;
+  color: white;
+  box-shadow: 0px 5px 5px 2px rgba(28, 28, 28, 0.371);
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
 
 /*############################# Transition */
 
@@ -405,7 +449,7 @@ h3 {
     align-items: center;
     overflow: hidden;
 
-    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.371);
+    box-shadow: 0px 5px 5px 2px rgba(65, 65, 65, 0.226);
 
     border-radius: 10px;
     cursor: pointer;
@@ -416,8 +460,7 @@ h3 {
     background: white;
     box-shadow: 0px 0px 10px 2px #7c81839c;
     
-    width: 300px;
-    height: 300px;
+    width: 270px;
   }
   
   .comp:hover .logo{
@@ -476,7 +519,10 @@ h3 {
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
     margin-top: 10px;
+    margin-right: 200px;
   }
+
+  
 /*#############################@ Always be Code */
 .A-B-C {
   color: #333;
